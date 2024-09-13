@@ -1,0 +1,182 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.mainDiv{
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+
+}
+.resume-container1 {
+  width: 20%;
+  background-color: #212026;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+
+.resume-container2 {
+  padding: 20px 0px 20px 0px;
+  width: 40%;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-picture-section{
+
+  margin: 0;
+}
+
+.profile-picture-container{
+
+  display: flex;
+  justify-content: center;
+  background-color: #171717;
+  height: 200px;
+}
+
+.profile-picture {
+  width: 150px;
+  border:10px solid white;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.eduDiv{
+  display: flex;
+  height: 50px;
+  width: 85%;
+  justify-content:start; 
+  margin-left: 14%;
+  text-transform: uppercase;
+  border-bottom:2px solid #FECB00;
+  margin-bottom: 12px;
+  color: white;
+}
+.deuDiv h2{
+  color:white;
+}
+
+.education{
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 18%;
+  color:white;
+  line-height: 1.5;
+}
+
+.ContactDiv{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px; 
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ height:25px;
+ background: linear-gradient(to right, #FECB00 20%, #292A2F 10%);
+}
+
+.contact-title-p{
+  margin: 0px; 
+  padding-left:80px;
+  color: white;
+}
+
+.contact-p{
+  margin-top:0px;
+  margin-left:80px;
+  color:white;
+}
+
+.cv-name-section{
+
+  background-color: #FECB00; 
+  height: 100px; 
+  display: flex; 
+  flex-direction:column; 
+  justify-content: center;
+  padding-left: 40px;
+  font-size: 20px; 
+}
+
+.sectionAfterYourName{
+
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  
+}
+
+.container2-h2{
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+ 
+.workExpDiv1{
+
+  display: flex; 
+  width:90%; 
+  /* border:1px solid black; */
+  margin-bottom: 50px;
+
+}
+
+ul li{
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+  width: 80%;
+  list-style: none;
+  font-size: 14px;
+  font-weight:500;
+
+}
+
+.perosnalDetail{
+
+  padding: 15px;
+
+}
+
+.personal-info{
+
+  /* display: flex; */
+}
+
+section {
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Hide sections smoothly */
+section.hidden {
+  display: none;
+}
